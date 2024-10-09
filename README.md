@@ -131,7 +131,7 @@ This work would not have been possible without the invaluable contributions of *
 
 ![screenshot](https://github.com/hypersoftdev/OfflinePrayerTimes/blob/master/Screens/profile_image.jpg?raw=true)
 
-We are deeply grateful for Ali Khan's involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
+We are deeply grateful for **M. Ali Khan's** involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
 
 # LICENSE
 

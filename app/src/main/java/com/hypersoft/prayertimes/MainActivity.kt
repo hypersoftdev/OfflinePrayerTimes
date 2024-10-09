@@ -1,9 +1,6 @@
-package com.sample.offlineprayertimes
+package com.hypersoft.prayertimes
 
-import android.app.Application
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.util.Log
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.enableEdgeToEdge
