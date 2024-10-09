@@ -90,16 +90,16 @@ class MainActivity : AppCompatActivity() {
         }.executeCoroutine()
 
     }
-	
-	private fun cancelCoroutine() {
+    
+    private fun cancelCoroutine() {
         if (prayerTimeCoroutine != null && prayerTimeCoroutine?.isActive == true) {
             prayerTimeCoroutine?.cancel("coroutineCanceled", null)
         }
         prayerTimeCoroutine = null
     }
-	
-	//Optional
-	override fun onDestroy() {
+    
+    //Optional
+    override fun onDestroy() {
         cancelCoroutine()
         super.onDestroy()
     }
