@@ -110,12 +110,12 @@ class MainActivity : AppCompatActivity() {
 ## Attribute Summary
 <table>
   <tr><th>Attribute</th><th>Format</th><th>Description</th></tr>
-  <tr><td>`prayerLatitude`</td><td>long</td><td>Set latitude (e.g, 33.601921.toBits())</td></tr>
-  <tr><td>`prayerLongitude`</td><td>long</td><td>Set longitude (e.g, 73.038078.toBits())</td></tr>
-  <tr><td>`prayerTimeFormat`</td><td>Int</td><td>Set Prayer Time Format.<br>1 = 12Hour (Default)<br>0 = 24Hour</td></tr>
-  <tr><td>`prayerCalMethod`</td><td>Int</td><td>Set Prayer Calculation Method<br>0 = JAFARI<br>1 =	University of Islamic Sciences, KARACHI (Default)<br>2 = Islamic Society of North America (ISNA)<br>3 = Muslim World League (MWL)<br>4 = Umm al-Qura, MAKKAH<br>5 = Egyptian General Authority of Survey<br>6 = Institute of Geophysics, University of TEHRAN</td></tr>
-  <tr><td>`asrJuristic`</td><td>Int</td><td>Set Asr Juristic.<br>1 = Hanfi (Default)<br>0 = Shafi</td></tr>
-  <tr><td>`prayerHighLats`</td><td>Int</td><td>Adjustment for Higher Latitudes areas.<br>0 = No Adjustment<br>1 = Middle of Night<br>2 = 1/7th of Night<br>3 = Angle/60th of Night (Default)</td></tr>
+  <tr><td>prayerLatitude</td><td>long</td><td>Set latitude (e.g, 33.601921.toBits())</td></tr>
+  <tr><td>prayerLongitude</td><td>long</td><td>Set longitude (e.g, 73.038078.toBits())</td></tr>
+  <tr><td>prayerTimeFormat</td><td>Int</td><td>Set Prayer Time Format.<br>1 = 12Hour (Default)<br>0 = 24Hour</td></tr>
+  <tr><td>prayerCalMethod</td><td>Int</td><td>Set Prayer Calculation Method<br>0 = JAFARI<br>1 =	University of Islamic Sciences, KARACHI (Default)<br>2 = Islamic Society of North America (ISNA)<br>3 = Muslim World League (MWL)<br>4 = Umm al-Qura, MAKKAH<br>5 = Egyptian General Authority of Survey<br>6 = Institute of Geophysics, University of TEHRAN</td></tr>
+  <tr><td>asrJuristic</td><td>Int</td><td>Set Asr Juristic.<br>1 = Hanfi (Default)<br>0 = Shafi</td></tr>
+  <tr><td>prayerHighLats</td><td>Int</td><td>Adjustment for Higher Latitudes areas.<br>0 = No Adjustment<br>1 = Middle of Night<br>2 = 1/7th of Night<br>3 = Angle/60th of Night (Default)</td></tr>
 </table>
 
 ## Features
