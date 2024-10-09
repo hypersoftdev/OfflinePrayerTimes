@@ -43,7 +43,8 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         
-		//Use Below Funtions
+		//Use Below Functions
+		
 		setPrayerAttributes()
         getTodayPrayerTimes()
 		
