@@ -1,20 +1,17 @@
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
 }
 
 android {
-    namespace = "com.sample.offlineprayertimes"
+    namespace = "com.hypersoft.offlineprayertimes"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sample.offlineprayertimes"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -40,18 +37,8 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
-    implementation(project(":OfflinePrayerTimes"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-    // ViewModel and LiveData
-    implementation(libs.lifecycle.livedata)
-    implementation(libs.lifecycle.viewmodel)
-
-    // Koin Dependency injection library
-    implementation(libs.koin)
 
 }

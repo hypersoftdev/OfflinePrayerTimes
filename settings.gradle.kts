@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "OfflinePrayerTimes"
 include(":app")
+include(":OfflinePrayerTimes")
