@@ -125,11 +125,15 @@ class MainActivity : AppCompatActivity() {
   - Customizable attributes so user can get accurate prayer times based on their location.
   - Get next day Fajr prayer time in advance to show it to user for better user experience.
 
+## Screen Demo
+
+![Demo](https://github.com/hypersoftdev/OfflinePrayerTimes/blob/master/screens/screen1.jpg?raw=true)
+
 # Acknowledgements
 
 This work would not have been possible without the invaluable contributions of **M. Ali Khan**. His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
 
-![screenshot](https://github.com/hypersoftdev/OfflinePrayerTimes/blob/master/Screens/profile_image.jpg?raw=true)
+![screenshot](https://github.com/hypersoftdev/OfflinePrayerTimes/blob/master/screens/profile_image.jpg?raw=true)
 
 We are deeply grateful for **M. Ali Khan's** involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
 
