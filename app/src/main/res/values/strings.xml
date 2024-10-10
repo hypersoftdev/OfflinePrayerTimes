@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">OfflinePrayerTimes</string>
+    <string name="allow_permission">Allow Permission</string>
+    <string name="permission_granted_text">Granted</string>
 </resources>

@@ -33,6 +33,10 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+    buildFeatures {
+        viewBinding = true
+        buildConfig = true
+    }
 }
 
 dependencies {
@@ -51,5 +55,10 @@ dependencies {
     implementation(libs.koin)
 
     implementation(project(":OfflinePrayerTimes"))
+
+    // Responsive layout sizes
+    implementation(libs.sdp)
+    implementation(libs.ssp)
+    implementation(libs.play.services.location)
 
 }

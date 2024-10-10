@@ -13,6 +13,11 @@ constraintlayout = "2.1.4"
 lifecycle = "2.8.2"
 # Koin library version
 koin = "3.4.0"
+# Intuit SDP library version
+sdp = "1.1.0"
+# Intuit SSP library version
+ssp = "1.1.0"
+playServicesLocation = "21.3.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,6 +36,12 @@ lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmode
 
 # Koin library for dependency injection
 koin = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
+
+# SDP library for responsive layout sizes
+sdp = { group = "com.intuit.sdp", name = "sdp-android", version.ref = "sdp" }
+# SSP library for responsive text sizes
+ssp = { group = "com.intuit.ssp", name = "ssp-android", version.ref = "ssp" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
